@@ -5,7 +5,7 @@
 #include "redpitaya/rp.h"
 
 int main (int argc, char **argv) {
-    int unsigned period = 1000000; // uS
+    int unsigned period = 100; // uS
     int unsigned led;
 
     // index of blinking LED can be provided as an argument
