@@ -24,7 +24,7 @@ int main (int argc, char **argv) {
         return EXIT_FAILURE;
     }
 
-    int unsigned retries = 1000;
+    int unsigned retries = 100;
     while (retries--){
         rp_DpinSetState(led, RP_HIGH);
         usleep(period/2);
