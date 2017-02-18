@@ -16,7 +16,7 @@ int main (int argc, char **argv) {
         led = 0;
     }
     printf("Blinking LED[%u]\n", led);
-    led += RP_LED0;
+    led += RP_LED1;
 
     // Initialization of API
     if (rp_Init() != RP_OK) {
